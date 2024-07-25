@@ -1,0 +1,11 @@
+<svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <clipPath id="clip169_840">
+            <rect id="check" rx="-0.500000" width="15.000000" height="15.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+        </clipPath>
+    </defs>
+    <rect id="check" rx="-0.500000" width="15.000000" height="15.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+    <g clip-path="url(#clip169_840)">
+        <path id="Vector" d="M0 8.51L5.47 13.99L16 3.48L14.48 1.99L5.47 10.99L1.48 7.01L0 8.51Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+    </g>
+</svg>

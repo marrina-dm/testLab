@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TestLab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+<script defer src="main.js"></script></head>
+<body>
+
+<section class="promo">
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="img/logo.png" alt="Логотип" class="logo-img">
+            </a>
+            <div class="header-burger" id="burger">
+                <svg width="22.000000" height="12.000000" viewBox="0 0 22 12" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <defs/>
+                    <rect width="22.000000" height="2.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+                    <rect y="10.000000" width="22.000000" height="2.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+                </svg>
+            </div>
+            <nav class="menu" id="menu">
+                <div class="menu-header">
+                    <a href="/" class="logo">
+                        <img src="img/logo-black.png" alt="Логотип" class="logo-img">
+                    </a>
+                    <div class="menu-close">
+                        <svg width="16.972656" height="16.970703" viewBox="0 0 16.9727 16.9707" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <defs/>
+                            <rect y="15.556396" width="22.000000" height="2.000000"
+                                  transform="rotate(-45 0.000000 15.556396)" fill="#191C1F" fill-opacity="1.000000"/>
+                            <rect x="1.414062" y="0.000122" width="22.000000" height="2.000000"
+                                  transform="rotate(45 1.414062 0.000122)" fill="#191C1F" fill-opacity="1.000000"/>
+                        </svg>
+                    </div>
+                </div>
+                <ul class="menu-items">
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">
+                            <span>Как это работает</span>
+                            <svg class="arrow" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <clipPath id="clip51_36">
+                                        <rect width="23.000000" height="23.000000"
+                                              transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect width="23.000000" height="23.000000"
+                                      transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip51_36)">
+                                    <path d="M9.4 17.29C9.21 17.48 9.1 17.73 9.1 18C9.1 18.26 9.21 18.52 9.4 18.7C9.58 18.89 9.84 19 10.1 19C10.37 19 10.62 18.89 10.81 18.7L15.4 14.12C15.96 13.55 16.27 12.79 16.27 12C16.27 11.2 15.96 10.44 15.4 9.87L10.81 5.29C10.62 5.12 10.37 5.02 10.11 5.03C9.85 5.04 9.61 5.14 9.43 5.32C9.25 5.51 9.14 5.75 9.14 6.01C9.13 6.26 9.22 6.51 9.4 6.7L13.98 11.29C14.17 11.48 14.27 11.73 14.27 12C14.27 12.26 14.17 12.51 13.98 12.7L9.4 17.29Z"
+                                          fill="#83898F" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#third" class="menu-link">
+                            <span>3-й блок</span>
+                            <svg class="arrow" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <clipPath id="clip51_36">
+                                        <rect width="23.000000" height="23.000000"
+                                              transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect width="23.000000" height="23.000000"
+                                      transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip51_36)">
+                                    <path d="M9.4 17.29C9.21 17.48 9.1 17.73 9.1 18C9.1 18.26 9.21 18.52 9.4 18.7C9.58 18.89 9.84 19 10.1 19C10.37 19 10.62 18.89 10.81 18.7L15.4 14.12C15.96 13.55 16.27 12.79 16.27 12C16.27 11.2 15.96 10.44 15.4 9.87L10.81 5.29C10.62 5.12 10.37 5.02 10.11 5.03C9.85 5.04 9.61 5.14 9.43 5.32C9.25 5.51 9.14 5.75 9.14 6.01C9.13 6.26 9.22 6.51 9.4 6.7L13.98 11.29C14.17 11.48 14.27 11.73 14.27 12C14.27 12.26 14.17 12.51 13.98 12.7L9.4 17.29Z"
+                                          fill="#83898F" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#faq" class="menu-link">
+                            <span>Вопросы и ответы</span>
+                            <svg class="arrow" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <clipPath id="clip51_36">
+                                        <rect width="23.000000" height="23.000000"
+                                              transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect width="23.000000" height="23.000000"
+                                      transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip51_36)">
+                                    <path d="M9.4 17.29C9.21 17.48 9.1 17.73 9.1 18C9.1 18.26 9.21 18.52 9.4 18.7C9.58 18.89 9.84 19 10.1 19C10.37 19 10.62 18.89 10.81 18.7L15.4 14.12C15.96 13.55 16.27 12.79 16.27 12C16.27 11.2 15.96 10.44 15.4 9.87L10.81 5.29C10.62 5.12 10.37 5.02 10.11 5.03C9.85 5.04 9.61 5.14 9.43 5.32C9.25 5.51 9.14 5.75 9.14 6.01C9.13 6.26 9.22 6.51 9.4 6.7L13.98 11.29C14.17 11.48 14.27 11.73 14.27 12C14.27 12.26 14.17 12.51 13.98 12.7L9.4 17.29Z"
+                                          fill="#83898F" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#form" class="menu-link">
+                            <span>Форма</span>
+                            <svg class="arrow" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <clipPath id="clip51_36">
+                                        <rect width="23.000000" height="23.000000"
+                                              transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect width="23.000000" height="23.000000"
+                                      transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip51_36)">
+                                    <path d="M9.4 17.29C9.21 17.48 9.1 17.73 9.1 18C9.1 18.26 9.21 18.52 9.4 18.7C9.58 18.89 9.84 19 10.1 19C10.37 19 10.62 18.89 10.81 18.7L15.4 14.12C15.96 13.55 16.27 12.79 16.27 12C16.27 11.2 15.96 10.44 15.4 9.87L10.81 5.29C10.62 5.12 10.37 5.02 10.11 5.03C9.85 5.04 9.61 5.14 9.43 5.32C9.25 5.51 9.14 5.75 9.14 6.01C9.13 6.26 9.22 6.51 9.4 6.7L13.98 11.29C14.17 11.48 14.27 11.73 14.27 12C14.27 12.26 14.17 12.51 13.98 12.7L9.4 17.29Z"
+                                          fill="#83898F" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="promo-info">
+        <div class="container">
+            <h1 class="promo-title">Говорят, никогда не поздно сменить профессию</h1>
+            <p class="promo-text">
+                Сделай круто тестовое задание и у тебя получится
+            </p>
+            <button class="btn promo-btn">Проще простого!</button>
+        </div>
+    </div>
+</section>
+
+<main>
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="about-title title">Как это работает</h2>
+            <ul class="about-items">
+                <li class="about-item">
+                    <img class="about-img" src="img/waiting.svg" alt="Иконка стрелка с часами">
+                    <div class="about-info">
+                        <h6 class="about-item-title title">Прочитай задание внимательно</h6>
+                        <p class="about-description">
+                            Думаю у тебя не займет это больше двух-трех минут
+                        </p>
+                    </div>
+                </li>
+                <li class="about-item">
+                    <img class="about-img" src="img/delivery-truck.svg" alt="Иконка грузовик">
+                    <div class="about-info">
+                        <h6 class="about-item-title title">Изучи весь макет заранее</h6>
+                        <p class="about-description">
+                            Подумай как это будет работать на разных разрешениях и при скролле
+                        </p>
+                    </div>
+                </li>
+                <li class="about-item">
+                    <img class="about-img" src="img/secure.svg" alt="Иконка безопасность">
+                    <div class="about-info">
+                        <h6 class="about-item-title title">Сделай хорошо</h6>
+                        <p class="about-description">
+                            Чтобы мы могли тебе доверить подобные задачи в будущем
+                        </p>
+                    </div>
+                </li>
+                <li class="about-item">
+                    <img class="about-img" src="img/money-bags.svg" alt="Иконка мешок с деньгами">
+                    <div class="about-info">
+                        <h6 class="about-item-title title">Получи предложение</h6>
+                        <p class="about-description">
+                            Ну тут все просто, не я придумал правила, но думаю так и будет)))
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="third" id="third">
+        <div class="container">
+            <div class="third-info">
+                <h3 class="third-title title">Круто, ты дошел до третьего блока</h3>
+                <div class="third-text">
+                    <p>
+                        63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы
+                        свыше
+                        15 000 ₽.
+                    </p>
+                    <p>
+                        Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и
+                        штрафах.
+                    </p>
+                </div>
+            </div>
+            <div class="third-img">
+                <img src="img/man-with-track.png" alt="Мужчина с грузовиком на фоне">
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="reviews-title title">Отзывы</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <blockquote>
+                            <cite class="author">
+                                <img src="img/unknown.png" alt="Нет фотографии" class="author-img">
+                                <span class="author-info">
+                                    <span class="author-name">Константинов Михаил Павлович</span>
+                                    <span class="author-city">Санкт-Петербург</span>
+                                </span>
+                            </cite>
+                            <p class="quote-text">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                                возможности для анализа существующих паттернов поведения. В своём стремлении улучшить
+                                пользовательский опыт мы
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="swiper-slide">
+                        <blockquote>
+                            <cite class="author">
+                                <img src="img/Ivanov.png" alt="Фотография Ивана Иванова" class="author-img">
+                                <span class="author-info">
+                                <span class="author-name">Иван Иванов</span>
+                                <span class="author-city">Санкт-Петербург</span>
+                            </span>
+                            </cite>
+                            <p class="quote-text">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                                возможности для анализа существующих паттернов поведения. В своём стремлении улучшить
+                                пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира
+                                призваны к ответу.
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="swiper-slide">
+                        <blockquote>
+                            <cite class="author">
+                                <img src="img/Kornilov.png" alt="Фотография Артема Корнилова" class="author-img">
+                                <span class="author-info">
+                                <span class="author-name">Артем Корнилов</span>
+                                <span class="author-city">Самара</span>
+                            </span>
+                            </cite>
+                            <p class="quote-text">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                                возможности для анализа существующих паттернов поведения.
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="swiper-slide">
+                        <blockquote>
+                            <cite class="author">
+                                <img src="img/unknown.png" alt="Нет фотографии" class="author-img">
+                                <span class="author-info">
+                                <span class="author-name">Константинов Михаил Павлович</span>
+                                <span class="author-city">Санкт-Петербург</span>
+                            </span>
+                            </cite>
+                            <p class="quote-text">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                                возможности для анализа существующих паттернов поведения. В своём стремлении улучшить
+                                пользовательский опыт мы
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="swiper-slide">
+                        <blockquote>
+                            <cite class="author">
+                                <img src="img/Ivanov.png" alt="Фотография Ивана Иванова" class="author-img">
+                                <span class="author-info">
+                                <span class="author-name">Иван Иванов</span>
+                                <span class="author-city">Санкт-Петербург</span>
+                            </span>
+                            </cite>
+                            <p class="quote-text">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                                возможности для анализа существующих паттернов поведения. В своём стремлении улучшить
+                                пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира
+                                призваны к ответу.
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="swiper-slide">
+                        <blockquote>
+                            <cite class="author">
+                                <img src="img/Kornilov.png" alt="Фотография Артема Корнилова" class="author-img">
+                                <span class="author-info">
+                                <span class="author-name">Артем Корнилов</span>
+                                <span class="author-city">Самара</span>
+                            </span>
+                            </cite>
+                            <p class="quote-text">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                                возможности для анализа существующих паттернов поведения.
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="faq-title title">Вопросы и ответы</h2>
+            <div class="accordion" id="accordion">
+                <h3 class="ui-accordion-header">Подтверждено: сознание наших соотечественников не замутнено
+                    пропагандой?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+                <h3 class="ui-accordion-header">Прототип нового сервиса - это как трубный призыв?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+                <h3 class="ui-accordion-header">Частокол на границе продолжает удивлять?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+                <h3 class="ui-accordion-header">Очевидцы сообщают, что слышали грохот грома градущих изменений?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+                <h3 class="ui-accordion-header">И по сей день в центральных регионах звучит перекатами печальный плач
+                    оппозиции?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+                <h3 class="ui-accordion-header">Нынче никто не может себе позволить инициировать треск разлетающихся скреп?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+                <h3 class="ui-accordion-header">Высококачественный прототип будущего проекта обнадёживает?
+                    <span class="ui-accordion-header-icon"></span>
+                </h3>
+                <div class="ui-accordion-content">
+                    В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+                    разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая
+                    повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <ul class="advantages-items">
+                <li class="advantages-item">
+                    <h6 class="advantage-title title">Опрошенных пользовались микрокредитами</h6>
+                    <p class="advantage-text">
+                        Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться
+                        от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше
+                        7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на
+                        процентах и штрафах
+                    </p>
+                </li>
+                <li class="advantages-item">
+                    <h6 class="advantage-title title">Опрошенных пользовались микрокредитами</h6>
+                    <p class="advantage-text">
+                        Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться
+                        от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше
+                        7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на
+                        процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах
+                    </p>
+                </li>
+                <li class="advantages-item">
+                    <h6 class="advantage-title title">Опрошенных пользовались микрокредитами</h6>
+                    <p class="advantage-text">
+                        Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться
+                        от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше
+                        7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на
+                        процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+                        помогает отказаться от кредитов и экономить деньги на процентах и штрафах
+                    </p>
+                </li>
+                <li class="advantages-item">
+                    <h6 class="advantage-title title">Опрошенных пользовались микрокредитами</h6>
+                    <p class="advantage-text">
+                        Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться
+                        от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше
+                        7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на
+                        процентах и штрафах
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="form" id="form">
+        <div class="container">
+            <h2 class="form-title title">Отправь форму</h2>
+            <form action="" method="post" class="form-details">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" placeholder="Text" required>
+                    <label for="name" class="form-label">Имя</label>
+                    <div class="error-input">Введите имя</div>
+                    <span class="check"><img src="img/check.svg" alt="Проверка пройдена"></span>
+                    <span class="cancel"><img src="img/cancel.svg" alt="Ошибка"></span>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-input" id="phone" placeholder="Text" required>
+                    <label for="phone" class="form-label">Телефон</label>
+                    <div class="error-input">Введите телефон</div>
+                    <span class="check"><img src="img/check.svg" alt="Проверка пройдена"></span>
+                    <span class="cancel"><img src="img/cancel.svg" alt="Ошибка"></span>
+                </div>
+                <div class="form-agree">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">Согласен, отказываюсь</label>
+                </div>
+                <div class="form-action">
+                    <button type="button" class="btn form-btn" id="process-form">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="rights">&copy; 2021 Лаборатория интернет</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 9px 0;
+    }
+
+    .header .container {
+        padding-right: 0;
+    }
+
+    .header-burger,
+    .menu-header {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+        z-index: 10;
+        padding-left: 16px;
+        box-sizing: border-box;
+    }
+
+    .menu.open {
+        display: block;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        padding-right: 17px;
+        gap: 0;
+    }
+
+    .menu-item {
+        width: 100%;
+        border-top: 1px solid rgb(236, 239, 242);
+    }
+
+    .menu-item:last-child {
+        border-bottom: 1px solid rgb(236, 239, 242);
+    }
+
+    .menu-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 16px 0;
+        color: rgb(131, 137, 143);
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .arrow {
+        display: block;
+    }
+
+    .promo-info {
+        padding: 317px 0 398px 0;
+    }
+
+    .promo-info .container {
+        max-width: 476px;
+    }
+
+    .promo-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .promo-text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 17px;
+    }
+
+    .promo-btn {
+        margin-top: 40px;
+    }
+
+    .about {
+        padding: 56px 0 28px 0;
+    }
+
+    .about-title {
+        margin-bottom: 42px;
+    }
+
+    .about-items {
+        grid-template-columns: repeat(2, minmax(0, 342px));
+        column-gap: 17px;
+        row-gap: 32px;
+    }
+
+    .about-item {
+        display: flex;
+        gap: 16px;
+    }
+
+    .about-img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .about-item-title {
+        margin-top: 0;
+    }
+
+    .third {
+        padding: 28px 0 56px 0;
+    }
+
+    .third-info {
+        max-width: 352px;
+    }
+
+    .third-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .third-text {
+        margin-top: 15px;
+    }
+
+    .swiper-slide {
+        max-width: 352px;
+    }
+
+    .reviews .swiper-button-prev,
+    .reviews .swiper-button-next {
+        display: none;
+    }
+
+    .faq {
+        padding: 56px 0;
+    }
+
+    .advantages {
+        padding: 20px 0 32px 0;
+    }
+
+    .advantages-items {
+        grid-template-columns: repeat(auto-fit, minmax(0, 728px));
+        row-gap: 20px;
+    }
+
+    .advantage-title {
+        margin-bottom: 46px;
+    }
+
+    .form {
+        padding: 56px 0;
+    }
+
+    .form-title {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .third .container {
+        flex-direction: column;
+    }
+
+    .third-info {
+        width: 100%;
+        text-align: center;
+        order: 1;
+        margin-top: 7px;
+    }
+
+    .third-text {
+        margin-top: 0;
+    }
+
+    .form-details {
+        grid-template-columns: repeat(1, minmax(0, 384px));
+        row-gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .swiper-slide {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .promo-info {
+        padding: 92px 0 172px 0;
+    }
+
+    .promo-info .container {
+        max-width: 288px;
+    }
+
+    .promo-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .promo-text {
+        margin-top: 10px;
+    }
+
+    .promo-btn {
+        margin-top: 26px;
+    }
+
+    .about-title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 26px;
+    }
+
+    .about-items {
+        grid-template-columns: repeat(auto-fit, minmax(0, 342px));
+    }
+
+    .reviews {
+        padding: 27px 0 37px 0;
+    }
+
+    .reviews-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 60px;
+    }
+
+    .faq-title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 42px;
+    }
+
+    .ui-accordion-header {
+        margin: 16px 0;
+        padding-right: 44px;
+    }
+
+    .ui-accordion-content {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .advantages {
+        padding-bottom: 21px;
+    }
+
+    .advantage-title {
+        margin-bottom: 14px;
+    }
+
+    .form-title {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .faq-title {
+        margin-bottom: 28px;
+    }
+
+    .advantages {
+        padding: 16px 0 19px 0;
+    }
+}
